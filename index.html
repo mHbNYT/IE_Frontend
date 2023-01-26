@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IE Frontend Project Fall 2022</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="https://images.squarespace-cdn.com/content/v1/55d372d2e4b0ac4433e8c9c5/1439924124773-5AXOWDC94UCERU1I74FB/LOGO+STACKED+2011_Stony+Circle.png" />
+</head>
+<body>
+
+    <section class="Header" id="START">
+
+      
+      <input type='checkbox' id="menu" class="menu" />
+      <label for="menu" class="label-for-menu"></label>
+
+
+      <div class="navbar">
+        <a href="#START">01 START</a>
+        <a href="#COURSE-LECTURES">02 COURSE LECTURES</a>
+        <a href="#RELATED-BOOKS">03 RELATED BOOKS</a>
+      </div>
+
+      <div id="title" class="header-title">
+          INTERNET 
+          <br>ENGINEERING
+      </div>
+        
+      <div class="header-subtitle">
+          <br> IS WHAT WE ARE GOING TO 
+          <br>LEARN IN THIS COURSE
+      </div>
+      <a class="header-button" href="https://www.aut.ac.ir")>
+          SEE THIS COURSE RELATED BOOKS
+      </a>
+    </section>
+
+    <section class="Lectures" id="COURSE-LECTURES">
+        
+      <ul>
+        <li>
+            <img src="https://cdn-icons-png.flaticon.com/512/1276/1276470.png">
+            <div class="lecture-title">HTTP</div>
+            <div class="introduction">
+                The Hypertext Transfer Protocol is an 
+                application layer protocol in the Internet
+                  protocol suite model for distributed, 
+                  collaborative, hypermedia information systems.
+            </div>
+            </li> 
+        <li>
+            <img src="https://cdn.worldvectorlogo.com/logos/html-1.svg">
+            <div class="lecture-title">HTML CSS</div>
+            <div class="introduction">
+                Cascading Style Sheets is a style sheet
+                  language used for describing the presentation
+                  of a document written in a markup language 
+                  such as HTML or XML. CSS is a cornerstone 
+                  technology of the World Wide Web, alongside 
+                  HTML and JavaScript.
+            </div>
+        </li> 
+        <li>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Javascript-shield.svg/1200px-Javascript-shield.svg.png">
+            <div class="lecture-title">JAVASCRIPT</div>
+            <div class="introduction">
+                JavaScript, often abbreviated as JS, is 
+                a programming language that is one of 
+                the core technologies of the World Wide Web, 
+                alongside HTML and CSS. As of 2022, 
+                98% of websites use JavaScript on the
+                  client side for webpage behavior, 
+                  often incorporating third-party libraries.
+            </div>
+        </li> 
+        <li>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Go_Logo_Black.svg/2560px-Go_Logo_Black.svg.png">
+            <div class="lecture-title">GOLANG</div>
+            <div class="introduction">
+                Go is a statically typed, 
+                compiled programming language 
+                designed at Google by Robert Griesemer, 
+                Rob Pike, and Ken Thompson. It is syntactically
+                  similar to C, but with memory safety,
+                  garbage collection, structural typing,
+                    and CSP-style concurrency.
+            </div>
+        </li> 
+      </ul>
+    </section>
+
+    <section class="RelatedBooks" id="RELATED-BOOKS">
+      <div class="title">Most Popular Books</div>
+      <div class="list">
+        
+      <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img class="intro-image" src="https://www.mitrais.com/wp-content/uploads/2018/07/golang-lets-go-1.png">
+              <div class="author">Alan Donovan</div>
+              <div class="edition">First Edition</div>
+              <div class="publish-year">Published at 2015</div>
+            </div>
+            <div class="flip-card-back">
+              <div class="price">Price: 29.37$</div>
+              <a href="#popup1" class="buy-to-popup">Buy</a>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img class="intro-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/HTTP_logo_-_2014.svg/290px-HTTP_logo_-_2014.svg.png">
+              <div class="author">Jon Duckett</div>
+              <div class="edition">First Edition</div>
+              <div class="publish-year">Published at 2011</div>
+            </div>
+            <div class="flip-card-back">
+              <div class="price">Price: 15.33$</div>
+              <a href="#popup2" class="buy-to-popup">Buy</a>
+            </div>
+          </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img class="intro-image" src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210203171024/CSSTutorial.png">
+            <div class="author">David Gourley</div>
+            <div class="edition">First Edition</div>
+            <div class="publish-year">Published at 2022</div>
+          </div>
+          <div class="flip-card-back">
+            <div class="price">Price: 23.99</div>
+              <a href="#popup3" class="buy-to-popup">Buy</a>
+          </div>
+        </div>
+      </div>
+
+      
+      </div>
+
+    </section>
+
+    <section class="Footer">
+      <ul>
+        <li class="links">
+          <button onclick="window.open('https://www.aut.ac.ir')">
+            CLASS INFO
+          </button>
+          <button href="#">
+            CONTACT US
+          </button>
+          <button href="#">
+            PRIVACY POLICY
+          </button>
+          <button href="#">
+            TERMS
+          </button>
+        </li> 
+        <li>
+          <div class="copy-right">built by Mahboubeh Enayati.</div>
+        </li> 
+      </ul>
+    </section>
+
+    <div class="popup" id="popup1">
+      <div class="popupPage" >
+        <a href="#RELATED_BOOKS" class="popup__close">&times;</a>
+        <img class="bookImage" src="https://m.media-amazon.com/images/I/41+02Q6ir0L._SX258_BO1,204,203,200_.jpg" />
+        <div class="text">
+          <div class="title">START READING NOW</div>
+          <div class="subtitle">IMPORTANT - PLEASE READ THESE TERMS BEFORE BUYING THIS BOOK</div>
+          <div class="explaination">
+            Ask yourself while you're reading / google for whether the material is still in use, or ever was. The Set-Cookie2 header was never adopted, digest authentication never really took off either, for example... I still recommend reading this book because I think the history of the web is important to understand and be able to speak about, and mst of the details are still relevant - I think as of today most servers are still using HTTP 1.1, and HTTP 1.1 is still the foundation off HTTP 2.0. This book also gives a good broad perspective on how HTTP fits into the broader internet, and how different components use it - it calls itself a general primer on the web. Another problem with this book is the authors repeated the same information 3-4 in alot of places. But at the end of the day there's alot of good, very important information here, and I haven't source for it so I do recommend reading it still.
+          </div>
+        </div>
+        <a href="https://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440" class="buy-button">BUY NOW</a>
+      </div>
+      <div class="blackout"></div>
+    </div>
+    <div class="popup" id="popup2">
+      <div class="popupPage" >
+        <a href="#RELATED_BOOKS" class="popup__close">&times;</a>
+        <img class="bookImage" src="https://m.media-amazon.com/images/I/51cW-bnhTUL._SX379_BO1,204,203,200_.jpg" />
+        <div class="text">
+          <div class="title">START READING NOW</div>
+          <div class="subtitle">IMPORTANT - PLEASE READ THESE TERMS BEFORE BUYING THIS BOOK</div>
+          <div class="explaination">
+            What makes it so painful is that this is such an essential book for this language, a legitimate successor for K&R (and probably the only one) for the only language that really could be considered a contemporary replacement for C. I will try to expand further at a later time (with an update to this review) on that perspective and where I think the content of this book fails, as no book is perfect, certainly not K&R, but given the damning paragraph above it would be deceptive to say anything more than the following sentences: The content is excellent and essential. It unquestionably has helped me, and will help me in the future. It would be helpful to anybody trying to learn Go who has some prior programming experience. It is the ideal book to read after doing 'A Tour of Go' (tour.golang.org) if you want to learn about Go and how to use it.
+          </div>
+        </div>
+        <a href="https://www.amazon.com/HTTP-Definitive-Guide-Guides/dp/1565925092" class="buy-button">BUY NOW</a>
+      </div>
+      <div class="blackout"></div>
+    </div>
+    <div class="popup" id="popup3">
+      <div class="popupPage" >
+        <a href="#RELATED_BOOKS" class="popup__close">&times;</a>
+        <img class="bookImage" src="https://m.media-amazon.com/images/I/41WznOEKmAL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg" />
+        <div class="text">
+          <div class="title">START READING NOW</div>
+          <div class="subtitle">IMPORTANT - PLEASE READ THESE TERMS BEFORE BUYING THIS BOOK</div>
+          <div class="explaination">
+            This book requires no previous knowledge to understand it. Though it’s worth noting that it goes a bit fast on some pages. If you have a terrible memory and need tons of examples on 1 thing, I’d go with the head first guide to HTML CSS & XHTML. That book goes over everything at a LOT slower pace. I read that book before this one and I still found things I didn’t know about HTML and CSS. I have been programming for a few months now and I’ve learned a ton of helpful things from this book that I never knew before, which is cool. The book had 50-star quality! I bought my book new due to the complaints of people getting broken books. The new book option is worth it if you are a person that hates even the slightest dent in your book. If you don’t care about the condition and only want the knowledge then used is good too.
+          </div>
+        </div>
+        <a href="https://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189" class="buy-button">BUY NOW</a>
+      </div>
+      <div class="blackout"></div>
+    </div>
+
+</body>
+</html>
